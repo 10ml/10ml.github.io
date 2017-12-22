@@ -29,11 +29,11 @@ var windowHeight = 0;
 var tPaht= "https://center.nepo.cf/api/tb-goods";
 var list_tpl = '<% _.forEach(datas, function(data) { %>' +
         '<div class="goods-item">' +
-        '<a data-gid="<%- data.id %>" href="./show.html?image=<%- data.pic_url %>&word=<%- data.token %>"  class="img">' +
+        '<a data-gid="<%- data.id %>" href="https://cloudmall.kuaizhan.com/48/5/p48808034731e4c?image=<%- data.pic_url %>&word=<%- data.token %>"  class="img">' +
         '<span class="coupon-wrapper  theme-bg-color-1">券 <i>￥</i><b><%- data.coupon_amount %></b></span>' +
         '<span class="today-wrapper"><b>NEW</b></span><img class="lazy" src="./images/rolling.gif?v=201712091615"  data-original="<%- data.pic_url %>" alt="" />' +
         '</a>' +
-        '<a  data-gid="<%- data.id %>" href="./show.html?image=<%- data.pic_url %>&word=<%- data.token %>" class="title">' +
+        '<a  data-gid="<%- data.id %>" href="https://cloudmall.kuaizhan.com/48/5/p48808034731e4c?image=<%- data.pic_url %>&word=<%- data.token %>" class="title">' +
         '<div class="text"><%- data.title %></div>' +
         '</a>' +
         '<div class="price-wrapper">' +
