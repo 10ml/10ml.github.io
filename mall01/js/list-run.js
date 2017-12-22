@@ -48,7 +48,7 @@ var list_tpl = '<% _.forEach(datas, function(data) { %>' +
         '<% }); %>';
 var cat_tpl = '<% _.forEach(datas, function(name,index) { %>' +
         '<li class="cat-item">' +
-        '<a rel="external" href="./list.html?cid=<%- index %>" data-cid="<%- index %>"><%- name %></a>' +
+        '<a rel="external" href="./?cid=<%- index %>" data-cid="<%- index %>"><%- name %></a>' +
         '</li>' +
         '<% }); %>';
 
