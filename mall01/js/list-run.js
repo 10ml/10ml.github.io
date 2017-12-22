@@ -121,8 +121,6 @@ $(document).ready(function () {
             }
         });
     }
-    $(window).trigger('scroll');
-
     (function () {
         $.ajax(tPaht+'/category',{
             data: {page: page, date:"",cat_id:0,cac_id:'cXVlDDASDASASDcnlUaGVuRmV0Y2g7NDszNjc4MjM1MzA6VlV4N2Y1ZndSYXlHMWdNS0FNazZRQTszNjc3NjIxNDg6cjhHOTVnQmlUeE9EblZnVHE5MjBPZzszNjc4MjkwNzE6dFVLLXNYenpUYktKenR3MkpGLW9ZUTszNjc3NzMyNzU6Qk85ZC02YmNTc0NaWkdVQmtvYTh1UTswOw=='},
@@ -138,7 +136,8 @@ $(document).ready(function () {
                 $('.main-cat').html(tpl({datas:result}));
             }
         });
-    })()
+    })();
+    $(window).trigger('scroll');
 });
 $("img.lazy").lazyload();
 
