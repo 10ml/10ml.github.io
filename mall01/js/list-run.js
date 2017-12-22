@@ -141,3 +141,5 @@ $(document).ready(function () {
     })()
 });
 $("img.lazy").lazyload();
+
+$("#phone-main").next().hide();
