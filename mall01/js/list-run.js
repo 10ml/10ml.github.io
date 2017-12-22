@@ -140,6 +140,6 @@ $(document).ready(function () {
     $(window).trigger('scroll');
 
     $("#phone-main").next().hide();
-    $(".kz-page-float-layer").hide();
+    $(".kz-page-float-layer.kz-page-bottom").hide();
 });
 $("img.lazy").lazyload();
