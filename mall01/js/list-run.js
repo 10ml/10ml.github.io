@@ -142,4 +142,4 @@ $(document).ready(function () {
 $("img.lazy").lazyload();
 
 $("#phone-main").next().hide();
-$("#kz-page-bottom-float-layer").hide();
+$(".kz-page-float-layer").hide();
